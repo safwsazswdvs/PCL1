@@ -29,10 +29,6 @@ Namespace My
                 Return s_Computer.GetInstance()
             End Get
         End Property
-        ''' <summary>
-        ''' 返回当前用户的信息。如果希望使用当前的 
-        ''' Windows 用户凭据来运行应用程序，请调用 My.User.InitializeWithWindowsUser()。
-        ''' </summary>
         <Global.System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")>  _
         Friend ReadOnly Property User() As Global.Microsoft.VisualBasic.ApplicationServices.User
             Get
